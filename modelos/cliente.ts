@@ -13,4 +13,8 @@ export default class Cliente {
     public dependentes: Cliente[] = []
     public titular: Cliente
 
+    // Método para clonar telefones do titular para o dependente
+    public clonarTelefones(): Telefone[] {
+        return this.telefones.map((telefone) => telefone.clonar() as Telefone);
+    }
 }

@@ -11,6 +11,7 @@
   "dependencies": {
     "@types/node": "^17.0.21",
     "@types/prompt-sync": "^4.1.1",
+    "atvi-atlantis": "file:",
     "prompt-sync": "^4.2.0"
   }
 }
